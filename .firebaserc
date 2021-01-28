@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "auth-fc26f": {
+      "hosting": {
+        "login": [
+          "auth-fc26f"
+        ]
+      }
+    }
+  }
+}
