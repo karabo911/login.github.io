@@ -17,14 +17,11 @@ email: any = {};
   ngOnInit():  void{
   }
 
-  resetPassword(email:string){
-    this.auth.sendPasswordResetEmail(this.email).then( res =>
-    {
-      console.log('reset password sent', res);
-      
-    }).catch(error=>{
-      console.log(error);
-      
-    });
+ resetPassword(){
+
+  this.authService.resetPassword('emakhowane@gmail.com')
+ }
+
+  
 }
-}
+

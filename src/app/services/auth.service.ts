@@ -40,7 +40,8 @@ this.fireAuth.authState.subscribe(user=>{
       {
      console.log(error)
      throw error
-    })
+    });
+    
     
     
    }
@@ -70,6 +71,8 @@ this.fireAuth.authState.subscribe(user=>{
  {
 return this.fireservices.collection('Employee').add(Record);
  }
+
+ 
  
   
 }
